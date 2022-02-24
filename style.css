@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .hero-content{
     padding-top: 126px;
 }
@@ -83,10 +84,10 @@ color: #000000;
     line-height: 15px;
     color: #B8B8B8;
 }
-.tab-content img{
-    width: 636px;
-    height: 460px;
+.hero_images_size img{
     margin-left: -100px;
+    width: 650px;
+    height: 480px;
 }
 .bg-product-1{
     background-color: purple;
@@ -98,17 +99,102 @@ color: #000000;
     padding-top:126px;
 }
 /* end hero section */
+.section-2{
+    margin-top: 120px;
+}
 .product-img-section-2{
     margin-top: -50px;
     margin-bottom: 50px;
 }
 .product-main-content{
     background: linear-gradient(284.19deg, #8731FA -0.4%, #FF7C91 86.81%);
+    padding: 100px 0px 78px 80px;
 }
+.product-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.product-heading span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.product-details{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.dot-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
 .dot-style{
-    width: 30px;
-    height: 30px;
+    width: 42px;
+    height: 42px;
     background-color: blueviolet;
     border-radius: 100%;
     margin-right: 10px;
+    margin-bottom: 60px;
+    margin: 20px 10px 60px 0px;
 }
+.style_1{
+    background-color: #FFFFFF;
+}
+.style_2{
+    background-color: #58DCF9;
+}
+.style_3{
+    background-color: #FF8F55;
+}
+.style_4{
+    background-color: #68DA7F;
+}
+.nav-pills .nav-link.active{
+    background-color: unset;
+}
+.button_style{
+    padding: 26px 66px 27px 66px;
+}
+.button_style a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #8731FA 0%, #FD46A0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+/* start slide images */
+
+  /* end slide images */
