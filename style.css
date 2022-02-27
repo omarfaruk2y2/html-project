@@ -2,7 +2,11 @@
 .hero-content{
     padding-top: 126px;
 }
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .hero-text h2{
     font-family: Poppins;
     font-style: normal;
@@ -100,11 +104,14 @@ color: #000000;
 }
 /* end hero section */
 .section-2{
-    margin-top: 120px;
+    margin-top: 180px;
 }
 .product-img-section-2{
-    margin-top: -50px;
-    margin-bottom: 50px;
+    margin-top: -200px;
+    padding-top: 160px;
+}
+.product-img-section-2 img{
+    width: 500px;
 }
 .product-main-content{
     background: linear-gradient(284.19deg, #8731FA -0.4%, #FF7C91 86.81%);
@@ -117,13 +124,14 @@ color: #000000;
     font-size: 45px;
     line-height: 22px;
     color: #FFFFFF;
+    margin-bottom: 13px;
 }
 .product-heading span{
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 22px;
+    line-height: 80px;
     color: #FFFFFF;
 }
 .price{
@@ -134,6 +142,7 @@ color: #000000;
     line-height: 25px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 42px;
 }
 .product-details{
     font-family: Poppins;
@@ -151,6 +160,7 @@ color: #000000;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
+    padding-top: 20px;
 }
 
 .dot-style{
@@ -160,7 +170,7 @@ color: #000000;
     border-radius: 100%;
     margin-right: 10px;
     margin-bottom: 60px;
-    margin: 20px 10px 60px 0px;
+    margin: 14px 10px 56px 0px;
 }
 .style_1{
     background-color: #FFFFFF;
@@ -178,7 +188,13 @@ color: #000000;
     background-color: unset;
 }
 .button_style{
-    padding: 26px 66px 27px 66px;
+    padding: 19px 66px 20px 66px;
+    border-radius: unset;
+    box-shadow: 0px 25px 40px 5px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+.button_style:hover{
+    background-color: #dee2e6;
 }
 .button_style a{
     font-family: Poppins;
@@ -191,10 +207,381 @@ color: #000000;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+/* start Related Products section */
+.wp_related_section{
+    padding: 100px 0px;
+    background: #F8FAFB;
+    
+}
+.wp_heading_product{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 90px;
+    text-align: center;
+    color: #242424;
+    background-image: url(images/bg-shape.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+.wp-product-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 22px;
+    color: #171C30;
+    margin-bottom: 30px;
+}
+.wp-product-heading span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.wp-price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 42px;
+}
+.wp-price span.old-price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #9A9A9A;
+}
+.wp-price .saving-price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #EC43AE;
+}
+.wp-product-details{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #4A4548;
+}
+.wp-dot-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #171C30;
+    padding-top: 20px;
+}
 
+.dot-style{
+    width: 42px;
+    height: 42px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    margin: 14px 10px 56px 0px;
+}
+.style_2{
+    background-color: #58DCF9;
+}
+.style_3{
+    background-color: #FF8F55;
+}
+.style_4{
+    background-color: #68DA7F;
+}
+.nav-pills .nav-link.active{
+    background-color: unset;
+}
+.wp_button_style{
+    padding: 19px 66px 20px 66px;
+    border-radius: unset;
+    background: linear-gradient(284.19deg, #8731FA -0.4%, #FF7C91 86.81%);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+.wp_button_style:hover{
+    background: linear-gradient(284.19deg, #FF7C91 -0.4%, #8731FA 86.81%);
+}
+.wp_button_style a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
+/* end Related Products section */
+/* start video section */
+.wp_video_section{
+    padding-top: 120px;
+}
+.wp_video_left{
+    background: linear-gradient(284.19deg, #8731FA -0.4%, #FF7C91 86.81%);
+    }
+.wp_video {
+        transform: translate(230px);
+    }
 
+.wp_video {
+    text-align: center;
+    position: relative;
+    padding: 0px 50px;
+}
+.wp_video i{
+    color: #E5296B;
+    font-size: 100px;
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 40%;
+    right: 0;
+}
+/* end video section */
+/* testimonial */
+.wp_testimonials{
+    padding: 100px 0px;
+}
+.wp_testimonials .wp_arrow_style span {
+    color: #C1C1C1;
+    border-radius: 100%;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #C1C1C1;
+}
+.wp_testimonials .wp_arrow_style span:hover{
+    background-color: #6B6B6B;
+    color: #FFF;
+}
+.wp_testimonials .author{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #9A9A9A;
+    padding-bottom: 30px;
+    padding-top: 16px;
+}
+.wp_testimonials p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #222222;
+    padding: 0px 200px;
+}
+.wp_star i{
+    padding-top: 20px;
+    color: #C95BC1;
+    font-size: 14px;
+}
+/* testimoinal */
+/* start call to action section */
+.wp_call_to_action_section{
+    background-color: #000;
+    background-image: url(/images/call\ to\ action.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.wp_call_to_action{
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+.wp_call_to_action h4{
+    font-family: Cerebri Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-bottom: 3px;
+}
+.wp_call_to_action_heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding-bottom: 17px;
+}
+.wp_call_to_action_para{
+    font-family: Cerebri Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-right: 250px;
+    padding-bottom: 38px;
+}
+.wp_call_to_action_button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    text-transform: uppercase;
+    padding: 26px 66px 26px 66px;
+    border: none;
+}
+.wp_call_to_action_button a{
+    text-decoration: none;
+}
 
-/* start slide images */
+/* end call to action section */
+/* subscribe section */
+.subscribe {
+    padding-bottom: 20px;
+    padding-top: 123px;
+}
+.wp_subscribe_heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: #171C30;
+}
+.wp_subscribe_para{
+    padding-top: 5px;
+    padding-bottom: 73px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #9A9A9A;
+}
+.subscribe-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wp_form_input{
+    border: none;
+    box-shadow: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #9A9A9A;
+}
+.wp_form_group span i{
+    font-size: 16px;
+    color: #9A9A9A;
+}
+.form-control:focus{
+    box-shadow: unset;
+}
+.wp_form_group {
+    border-bottom: 1px solid #9A9A9A;
+    display: flex;
+    align-items: baseline;
+    width: 500px;
+    margin-right: 17px;
+}
+.wp_subscribe_button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    color: #6B6B6B;
+    background: transparent;
+    border: 1px solid #9A9A9A;
+    padding: 13px 18px 13px 17px;
+}
+/* subscribe section end */
 
-  /* end slide images */
+/* section-footer */
+.section-footer-menu{
+    margin-top: 120px;
+}
+.section-top-border{
+    border: 1px solid #E0E0E0;
+    margin-bottom: 50px;
+    margin-top: 83px;
+}
+.section-footer{
+    margin-bottom: 50px;
+}
+.footer-menu h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #171C30;
+}
+.footer-menu .list-items li{
+    list-style: none;
+}
+.footer-menu .list-items li a{
+    font-family: Cerebri Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #B9B9B9;
+    text-decoration: none;
+}
+.footer-text{
+    display: flex;
+    align-items: baseline;
+}
+.footer-text i{
+    font-size: 16px;
+    color: #ABABAB;
+    margin-right: 10px;
+}
+.footer-text h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    color: #ABABAB;
+}
+.footer-text h4 a{
+    text-decoration: none;
+}
+/* end section-footer */
