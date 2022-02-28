@@ -282,6 +282,7 @@ color: #000000;
     line-height: 32px;
     letter-spacing: -0.01em;
     color: #4A4548;
+    margin-right: 140px;
 }
 .wp-dot-heading{
     font-family: Poppins;
@@ -344,7 +345,7 @@ color: #000000;
     background: linear-gradient(284.19deg, #8731FA -0.4%, #FF7C91 86.81%);
     }
 .wp_video {
-        transform: translate(230px);
+        transform: translate(320px);
     }
 
 .wp_video {
