@@ -336,6 +336,24 @@ color: #000000;
     text-decoration: none;
 }
 
+/* rap */
+.related_product_1 {
+    margin-left: 160px;
+    margin-right: 80px;
+    background: linear-gradient(16.04deg, #FBFAFC -33.12%, #4674FA 79.39%);
+}
+.preview_bg_color {
+    background: #FFFFFF;
+    margin-left: -100px;
+    margin-right: 50px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+    transform: translate(10px, -35px);
+}
+.preview_bg_color img{
+    transform: translate(-90px, 11px);
+}
+
 /* end Related Products section */
 /* start video section */
 .wp_video_section{
