@@ -350,10 +350,33 @@ color: #000000;
     padding-top: 100px;
     transform: translate(10px, -35px);
 }
-.preview_bg_color img{
-    transform: translate(-90px, 11px);
+.preview_bg_color img {
+    transform: translate(-185px, 11px);
 }
-
+/* second product */
+.second-product{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.product-second {
+    padding-left: 56px;
+}
+.related_product_1-second {
+    /* margin-left: 160px; */
+    margin-right: 160px;
+    background: linear-gradient(16.04deg, #FBFAFC -33.12%, #4674FA 79.39%);
+}
+.preview_bg_color-second {
+    background: #FFFFFF;
+    margin-left: -46px;
+    margin-right: 50px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+    transform: translate(115px, -70px);
+}
+.preview_bg_color-second img {
+    transform: translate(-60px, 11px);
+}
 /* end Related Products section */
 /* start video section */
 .wp_video_section{
