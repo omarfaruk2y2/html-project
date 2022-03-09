@@ -1,0 +1,5 @@
+@media(max-width:1440px){
+    .bg-product-1 {
+        transform: translate(94px, 10px);
+    }
+}
