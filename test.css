@@ -1,0 +1,35 @@
+.active{
+    color: aliceblue;
+}
+
+.test{
+    padding: 120px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(56, 20, 90);
+}
+.button-section button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: blueviolet;
+    color: azure;
+}
+.popup{
+    width: 350px;
+    text-align: center;
+    background-color: rgb(158, 6, 158);
+    padding: 50px;
+    position: absolute;
+}
+.popup img{
+    width: auto;
+    height: 50px;
+}
+.popup button{
+    border: none;
+    background-color: azure;
+}
