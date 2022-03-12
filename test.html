@@ -11,15 +11,15 @@
 </head>
 
 <body>
-    <div class="container bg-dark">
+    <div class="container-fluid section-menu bg-dark">
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon text-success"></span>
             </button>
-            <div class="collapse navbar-collapse text-end" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -30,28 +30,79 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
     </div>
-
-<div class="container test">
-    <div class="button-section">
-        <button type="submit">Button One</button>
-        <button type="submit">Button Two</button>
+    
+    <div class="container">
+        <form action="">
+                <div>
+                    <label for="name">Full Name:
+                    <input type="text" id="name" name="name">
+                </label>
+                </div>
+                <div>
+                    <label for="name">Email Address
+                    <input type="email" id="email" name="email">
+                </label>
+                </div>
+                <div>
+                    <label for="name">Address
+                    <input type="text" id="address" name="address">
+                </label>
+                </div>
+                <div>
+                    <label for="name">Phone Number
+                    <input type="number" id="number" name="number">
+                </label>
+                </div>
+                <div>
+                    <label for="name">Password
+                    <input type="password" id="password" name="password">
+                </label>
+                </div>
+                <div>
+                    <button type="submit" name="submit" id="submit">Submit</button>
+                </div>
+        </form>
     </div>
-    <div class="popup">
+
+<div class="container-fluid test">
+    <div class="button-section">
+        <button type="submit" onclick="openButton()">Button One</button>
+        <button type="submit" onclick="openButton()">Button Two</button>
+    </div>
+    <div class="popup" id="popup">
         <img src="/images/tik1.png">
-        <h1>New Product</h1>
+        <h1>Thank You!</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem</p>
-        <button type="submit">Ok</button>
+        <button type="button" onclick="closebutton()">Ok</button>
     </div>
 </div>
+<div class="container-fluid bg-dark">
+    <div class="slider text-center">
+        <button class="slider_button" onclick="previwsImages()">Pre</button>
+        <img src="/images/slider-images/slider-3.png" class="slider-img img-fluid active">
+        <button class="slider_button" onclick="nextImages()">Next</button>
+    </div>
+</div>
+<!-- slider end -->
+
 
 
 
 <script src="js/bootstrap.min.js"></script>
+<script src="app.js"></script>
 </body>
-
 </html>
